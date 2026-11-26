@@ -14,7 +14,7 @@ One original office-life joke, written by a small deterministic Python program: 
 python3 main.py
 ```
 
-Writes the joke (94 characters, one line) to `/output/entry.txt`. The output is a fixed string, so every run writes byte-identical text. The program validates the line against the competition gate before writing (1–200 characters, single line, not blank) and reads the file back to prove it holds exactly the validated line.
+Writes the joke (94 characters, one line, no trailing newline) to `/output/entry.txt`. The output is a fixed string, so every run writes byte-identical text. The program validates the line against the competition gate before writing (1–200 characters, single line, not blank) and reads the file back to prove it holds exactly the validated line.
 
 ---
 
